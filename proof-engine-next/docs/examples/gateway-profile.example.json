@@ -1,0 +1,18 @@
+{
+  "provider": "codex_mcp_gateway",
+  "name": "Codex local gateway",
+  "transport": "mcp",
+  "mode": "read_only",
+  "capabilities": [
+    "schema.inspect",
+    "events.read",
+    "entities.read",
+    "metrics.read",
+    "health.check"
+  ],
+  "scopes": [
+    "project:read",
+    "events:read",
+    "metrics:read"
+  ]
+}

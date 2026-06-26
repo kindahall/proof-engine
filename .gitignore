@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.*
+
+# Build outputs
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+dist/
+**/dist/
+
+# Test and coverage outputs
+coverage/
+**/coverage/
+test-results/
+**/test-results/
+playwright-report/
+**/playwright-report/
+
+# Environment and local secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Local tooling and caches
+.vercel/
+**/.vercel/
+*.tsbuildinfo
+next-env.d.ts
+.turbo/
+.cache/
+**/supabase/.temp/
+
+# OS/editor noise
+.DS_Store
+**/.DS_Store
+*.swp
+*.swo
+
+# Private keys/certificates
+*.pem
+*.key
+*.p12
+
+# Older app attempts and local design assets.
+frontend/
+proof-engine-app/
+image landing page/
