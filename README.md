@@ -39,3 +39,7 @@ pnpm test:e2e
 - `AGENTS.md` - workspace instructions for coding agents.
 
 Older local app attempts and design exports are intentionally ignored by Git.
+
+## Support
+
+If this project is useful to you, you can support its development with a free and entirely optional tip through the repository's **Sponsor** button. Thank you for your support.
